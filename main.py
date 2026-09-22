@@ -2,8 +2,9 @@ import random
 
 
 game_number = random.randint(1,10)
-print(game_number)
+#print(game_number)
 
+#get the guess from the user
 while( True):
 
     user_guess = int(input("guess a number between 1 and 10: "))
@@ -12,7 +13,7 @@ while( True):
     if user_guess > game_number:
         print("yo your stright booty but checks its too high")
     elif user_guess < game_number:
-        print("yo your stright booty but checks its too low")
+        print("yo  your stright booty but checks its too low")
     else:
         print("good job you guessed the number")
         break
